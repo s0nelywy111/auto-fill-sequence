@@ -1,18 +1,16 @@
 // ==UserScript==
-// @name         Dmarket
+// @name         auto-fill-sequence
 // @namespace    http://tampermonkey.net/
 // @version      1.0
-// @description  Вставляет цифры по порядку при нажатии Ctrl+V
-// @author       You
+// @description  Inserts numbers and words in order when pressing Ctrl+V / Вставляет цифры и слов по порядку при нажатии Ctrl+V
+// @author       s0nelywy111
 // @match        *://*/*
 // @grant        none
 // ==/UserScript==
 
 (function() {
     'use strict';
-
-
-    const NUMBERS_CONFIG = '1 2 3 4 5';
+    const NUMBERS_CONFIG = 'WRITE HERE YOUR TEXT(WORDS/NUMBERS) // НАПИШИТЕ ЗДЕСЬ ВАШ ТЕКСТ(СЛОВА/ЦИФРЫ)';
 
     let numbers = NUMBERS_CONFIG.split(' ').filter(num => num.trim() !== '');
     let currentIndex = 0;
@@ -23,7 +21,7 @@
             event.stopPropagation();
 
             if (currentIndex >= numbers.length) {
-                alert('Все числа использованы!');
+                alert('All numbers are used!');
                 return;
             }
 
@@ -42,9 +40,9 @@
 
                 currentIndex++;
 
-                showNotification(`Вставлено: ${currentNumber} (${currentIndex}/${numbers.length})`);
+                showNotification(`Inserted: ${currentNumber} (${currentIndex}/${numbers.length})`);
             } else {
-                alert(`Следующее число: ${currentNumber}`);
+                alert(`Next number: ${currentNumber}`);
                 currentIndex++;
             }
         }
@@ -76,7 +74,7 @@
     function resetCounter(event) {
         if (event.ctrlKey && event.altKey && event.key === 'r') {
             currentIndex = 0;
-            showNotification('Счетчик сброшен');
+            showNotification('The counter has been reset.');
         }
     }
 

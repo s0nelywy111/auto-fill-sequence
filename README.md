@@ -44,7 +44,7 @@ Userscript for automatically inserting sequential numbers or words into web form
 
 ### 🛠 Установка
 1. Установите [Tampermonkey](https://www.tampermonkey.net/) в ваш браузер
-2. Нажмите на [эту ссылку](ссылка) для установки скрипта
+2. Нажмите на [эту ссылку](https://www.tampermonkey.net/script_installation.php#url=https://github.com/s0nelywy111/auto-fill-sequence/raw/refs/heads/main/Script.user.js) для установки скрипта
 3. Подтвердите установку в Tampermonkey
 
 ### 📋 Использование

@@ -23,10 +23,12 @@ Userscript for automatically inserting sequential numbers or words into web form
 
 ### 📋 Usage
 1. Open any web page with input fields
-2. Click on the input field
-3. Press `Ctrl+V` to insert the next number/word
-4. Repeat for other fields
-5. Use `Ctrl+Alt+R` to reset the counter
+2. Open console on the site (F12 / ctr+shift+c)
+3. Type setValues('...') and press Enter
+4. Click on the input field
+5. Press `Ctrl+V` to insert the next number/word
+6. Repeat for other fields
+7. Use `Ctrl+Alt+R` to reset the counter
 
 ---
 
@@ -52,7 +54,7 @@ Userscript for automatically inserting sequential numbers or words into web form
 ### 📋 Использование
 1. Откройте любую веб-страницу с полями ввода
 2. Откройте консоль на сайте (F12 / ctr+shift+c)
-3. Введите setValues('...')
+3. Введите setValues('...') и нажмите Enter
 4. Кликните на поле ввода
 5. Нажмите `Ctrl+V` для вставки следующего числа/слова
 6. Повторите для других полей

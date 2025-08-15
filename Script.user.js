@@ -46,7 +46,7 @@
         }
     };
 
-    console.log('=== Dmarket Script loaded ===');
+    console.log('=== Script loaded ===');
     console.log('Commands:');
     console.log('setValues("apple banana 123 cherry") - set new values');
     console.log('showValues() - show current values and progress');

@@ -12,7 +12,7 @@
     'use strict';
 
 
-    const NUMBERS_CONFIG = "1 2 3 4 5";
+    const NUMBERS_CONFIG = '1 2 3 4 5';
 
     let numbers = NUMBERS_CONFIG.split(' ').filter(num => num.trim() !== '');
     let currentIndex = 0;

@@ -16,7 +16,7 @@ Userscript for automatically inserting sequential numbers or words into web form
 - 💡 Progress notifications
 - 🌐 Works on any website
 
-###❗❗❗important ❗❗❗
+### ❗ important ❗❗❗
 ### 🛠 Installation
 1. Install [Tampermonkey](https://www.tampermonkey.net/) in your browser
 2. Click [this link](https://www.tampermonkey.net/script_installation.php#url=https://github.com/s0nelywy111/auto-fill-sequence/raw/refs/heads/main/Script.user.js) to install the script

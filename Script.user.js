@@ -11,7 +11,7 @@
 (function() {
     'use strict';
 
-    const VALUES_CONFIG = '1 2 3 4 5';
+    const VALUES_CONFIG = '';
 
     let values = VALUES_CONFIG.split(' ').filter(val => val.trim() !== '');
     let currentIndex = 0;

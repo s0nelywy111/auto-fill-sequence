@@ -16,7 +16,6 @@ Userscript for automatically inserting sequential numbers or words into web form
 - 💡 Progress notifications
 - 🌐 Works on any website
 
-### ❗ important ❗❗❗
 ### 🛠 Installation
 1. Install [Tampermonkey](https://www.tampermonkey.net/) in your browser
 2. Click [this link](https://www.tampermonkey.net/script_installation.php#url=https://github.com/s0nelywy111/auto-fill-sequence/raw/refs/heads/main/Script.user.js) to install the script
@@ -43,20 +42,14 @@ Userscript for automatically inserting sequential numbers or words into web form
 - 💡 Уведомления о прогрессе
 - 🌐 Работает на любых сайтах
 
-###❗❗❗важно ❗❗❗
-### 📋 Использование
-1. Нажав на расширение Tampermonkey нужно открыть панель управления
-2. 
-1. Откройте любую веб-страницу с полями ввода
-2. Кликните на поле ввода
-3. Нажмите `Ctrl+V` для вставки следующего числа/слова
-4. Повторите для других полей
-5. Используйте `Ctrl+Alt+R` для сброса счетчика
-
 ### 🛠 Установка
 1. Установите [Tampermonkey](https://www.tampermonkey.net/) в ваш браузер
 2. Нажмите на [эту ссылку](https://www.tampermonkey.net/script_installation.php#url=https://github.com/s0nelywy111/auto-fill-sequence/raw/refs/heads/main/Script.user.js) для установки скрипта
 3. Подтвердите установку в Tampermonkey
 
-
-### 📝 Примечание
+### 📋 Использование
+1. Откройте любую веб-страницу с полями ввода
+2. Кликните на поле ввода
+3. Нажмите `Ctrl+V` для вставки следующего числа/слова
+4. Повторите для других полей
+5. Используйте `Ctrl+Alt+R` для сброса счетчика
